@@ -1,0 +1,15 @@
+usage: pipreq [-h] [--version] [-g] [-c] [-U] [-x] [packages]
+
+Manage Python package requirements across multiple environments using per-
+environment requirements files.
+
+positional arguments:
+  packages
+
+optional arguments:
+  -h, --help          show this help message and exit
+  --version           Show program's version number
+  -g, --generate      Generate requirements files
+  -c, --create        Create or update rc file (requires list of packages)
+  -U, --upgrade       Upgrade packages (requires list of packages)
+  -x, --remove-extra  Remove packages not in list (requires list of packages)
